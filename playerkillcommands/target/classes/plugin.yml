@@ -1,0 +1,12 @@
+name: PlayerKillCommands
+version: 1.0
+main: org.examplexiaodou.playerkillcommands.PlayerKillCommands
+api-version: 1.16
+commands:
+  pkc:
+    description: 主命令，用于控制插件功能
+    usage: /<command> [reload]
+permissions:
+  killcommands.reload:
+    description: 允许执行插件重载命令
+    default: op

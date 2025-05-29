@@ -1,0 +1,11 @@
+# 启用插件的世界列表
+enabled-worlds:
+  - world
+  - survival_world
+
+# 要执行的命令列表（支持颜色代码）
+commands:
+  - "say &a%player% 被 %killer% 击杀了！"
+  - "bc &6凶手使用武器：%killer_item%"
+  - "give %killer% diamond 1"
+  - "effect %player% blindness 30 1"
